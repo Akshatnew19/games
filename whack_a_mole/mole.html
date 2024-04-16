@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a mole</title>
+    <link rel="stylesheet" href="mole.css" >
+    <script src="mole.js"></script>
+</head>
+<body>
+    <div style=" width: 100%; height: 650px;">  
+        <div  style="align-content: left; width: 25%; height: 550px; float:left;" >
+            <h1 style="color: aliceblue; text-align: center;" >Time remaining </h1>
+            <h1 style="color: aliceblue; text-align: center;" id="time" >__ seconds</h1>
+            <button class="btn" id="myButton">
+                Start
+            </button>
+            <button class="btn" id="btn1" >
+                Restart
+            </button>
+            </div>
+    <div class="board" style="width: 50%; float:left; 
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;" >
+    <h1 style="color: aliceblue;">Whack a mole</h1>
+    <h2 id="score" style="color: aliceblue;"> 0  </h2>
+    <div id="board" style="align-content: center;"></div>
+    </div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pong.js"></script>
+    <link rel="stylesheet" href="pong.css">
+    <title>Pong</title>
+</head>
+<body>
+   <div class="container">
+    <div class="d1">
+        <h1 style="font-size: 50px;">Player 1</h1>
+            <button class="btn btn-primary" id="p1top">
+                W
+            </button>
+            <button class="btn1 btn-primary" id="p1bottom">
+                S
+            </button>
+            <button class="btn btn-submit " id="start"> 
+                Start
+            </button>
+         </div>
+    <div class="d2">
+        <h1 style="font-size: 50px;">Ping Pong Game</h1>
+        <br>
+        <canvas id="board">
+        </canvas>
+    </div>
+    <div class="d3">
+        <h1 style="font-size: 50px;">Player 2</h1>
+        <button class="btn btn-primary" id="p2top">
+        Arrow Up
+       </button>
+       <button class="btn1 btn-primary" id="p2bottom">
+        Arrow Down
+       </button>
+       <button class="btn btn-submit " id="restart" onclick="restart()"> 
+        Restart
+    </button>
+    </div>
+   </div>
+    
+</body>
+</html>

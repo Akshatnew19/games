@@ -1,0 +1,39 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-left: 0;
+}
+
+#div1{
+    
+    width: 23.33%; 
+    /* divide 100 by 3 */ 
+    float: right;  
+
+}
+#div2{
+    /* background-color: rgb(165, 165, 232); */
+    width: 53.33%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#div3{
+
+    width: 23.33%;
+    float: left;
+}
+
+
+
+#btn1{
+    bottom: 160px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    margin-left: 35px;
+    font-size: 30px;
+    box-shadow: 40px;
+    color: aliceblue;
+}

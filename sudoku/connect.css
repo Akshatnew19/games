@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.textbox{
+   padding: 10px; 
+   width: 175px;
+   height: 100px;
+   
+   border: 5px solid black;
+   font-size: 40px;
+   align-content: center;
+   margin: 190px auto; 
+}
+
+#t1{
+   background-color: red;
+   
+   color: white;
+}
+#t2{
+   background-color: yellow;
+   color: black;
+}
+
+#div1{
+    float: left;
+    width: 27.33%;
+}
+#div2{
+    margin: 0 auto;
+    width: 55.33%;
+}
+#div3{
+    float: right;
+    width: 27.33%;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    border: 5px solid navy;
+}
+
+#board{
+    width: 630px;
+    height: 540px;
+    margin: 0 auto;
+    background-color: blue;
+    border: 10px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+}
+
+
+#restart{
+    width:150px;
+    height:80px;
+    border: 5px  solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#3498db;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+  touch-action: manipulation;
+}
+#restart:hover{
+    background-color: red;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+}
+
+
+
+
+

@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(img/bg.jpeg);
+    
+}
+h1{
+    font-size: 35px;
+}
+hr{
+    width: 600px;
+    height: 5px;
+    background-color: black;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.right{
+    flex: 1;
+    width: 700px;
+    height: 700px;
+}
+.left{
+    width: 200px;
+    position: absolute;
+    top: 5;
+    left: 0;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    /* used to align in center 20px- margin from top and botton and auto - automatically fit in left-right*/
+    margin: 20px auto; 
+    display: flex;
+    flex-wrap: wrap;
+    background:transparent;
+
+}
+#resetBtn{
+  
+    margin-left: 800px;
+    font-size: 35px;
+    size: 50px;
+    border-radius: 15px;
+    text-decoration-thickness:  17px;
+    border-color: red;
+
+}
+/* for 9 tiles we made tile class */
+/* .name is name of class */
+.tile{
+    width: 147px;
+    height: 147px;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+.vertical-line{
+    border-right: 3px solid black;
+}
+
+.winner{
+    background-color: lightgray;
+    color: red;
+}
+
+.draw{
+    background-color: lightgray;
+    color: blue;
+}
